@@ -1,0 +1,40 @@
+%%Tema para beamer "Imunam", versión 1.0
+%%Desarrollado por Geri Morales (gerino.morales@im.unam.mx)
+%%Imate Cuernavaca, UNAM. Agosto 2014.
+
+\mode<presentation>
+
+%Paquete requerido
+\RequirePackage{tikz}
+\RequirePackage{graphicx}
+\RequirePackage{amssymb}
+\RequirePackage{xcolor}
+
+\RequirePackage[absolute, overlay]{textpos}
+\definecolor{orounam}{HTML}{CC9933}
+\definecolor{azulunam}{HTML}{13406F}
+
+\newcommand{\logoimate}{images/IM_logo.pdf}
+\newcommand{\logoblanco}{images/IM_blanco.pdf}
+
+\DeclareOption{cuernavaca}{
+    \renewcommand{\logoimate}{images/IM_Cuerna.pdf}
+    \renewcommand{\logoblanco}{images/IM_Cuerna_blanco.pdf}
+}
+\ProcessOptions\relax
+
+%Configuraciones
+\usecolortheme{Imunam}
+\useinnertheme{Imunam}
+\useoutertheme{Imunam}
+
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+%\DeclareOption{cuernavaca}{
+%    \renewcommand{\logoimate}{IM_Cuerna.pdf}
+%    \renewcommand{\logoblanco}{IM_Cuerna_blanco.pdf}
+%}
+
+\mode<all>

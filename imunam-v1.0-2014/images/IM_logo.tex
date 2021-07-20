@@ -1,0 +1,18 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{tgadventor}
+
+\begin{document}
+
+\definecolor{imred}{HTML}{BD2026}
+\definecolor{imyellow}{HTML}{FCED27}
+\definecolor{imorange}{HTML}{F6B419}
+\begin{tikzpicture}[scale=0.3, line width=2pt]
+    \draw[black, fill=imred] (16.6,8.88) -- (21.84,13.28) -- (13,19.6) -- (10.96,13.12);
+    \draw[black, fill=imorange] (4,13.16) -- (7.68,2.27) -- (9.77, 8.84) -- cycle;
+    \draw[black, fill=imyellow] (4,13.16) -- (15.22, 13.04) -- (13.04,6.44) -- cycle;
+    \draw[black, fill=imorange] (7.68,2.16) -- (13.04,6.44) -- (9.77, 8.84) -- cycle;
+    \draw[black, fill=white] (15.18,12.80) -- (13.83,8.76) -- (16.6, 8.88) -- cycle;
+    \node[minimum size=8em, align=left] (title) at (25.8, 5) {\textsf{\Huge Instituto de} \\ \\ \textsf{\Huge Matem\'aticas}};
+\end{tikzpicture}
+\end{document}
