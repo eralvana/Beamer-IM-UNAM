@@ -13,4 +13,4 @@ IM-UNAM. Agosto 2021.
 Basado en:
 Tema para beamer "Imunam", versión 1.0
 Desarrollado por Geri Morales (gerino.morales@im.unam.mx)
-Imate Cuernavaca, UNAM. Agosto 2014.NAM. Agosto 2014.
+Imate Cuernavaca, UNAM. Agosto 2014.
