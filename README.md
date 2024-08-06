@@ -1,10 +1,4 @@
-IM UNAM
-
-======
-
-Plantilla "Imunam" para Beamer
-
-======
+# Plantilla "IM UNAM" para Beamer
 
 Tema para beamer "IM-UNAM", versión 2.0
 Desarrollado por Ernesto Vázquez (shino@ciencias.unam.mx)
